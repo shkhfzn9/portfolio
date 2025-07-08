@@ -167,7 +167,7 @@ const projects = [
     image:
       "https://readdy.ai/api/search-image?query=Educational%20quiz%20application%20interface%20showing%20interactive%20questions%20and%20learning%20progress%20tracking.%20The%20UI%20features%20colorful%20educational%20elements%2C%20progress%20charts%2C%20and%20knowledge%20assessment%20visuals.%20Modern%20e-learning%20design%20with%20engaging%20educational%20graphics%20on%20a%20minimalist%20background.&width=600&height=400&seq=7&orientation=landscape",
     githubLink: "https://github.com/shkhfzn9/QuizGamify",
-    demoLink: "quiz-gamify.vercel.app", //
+    demoLink: "https://quiz-gamify.vercel.app/", //
     YoutubeLink: "https://www.youtube.com/embed/TZKk2xEgywo",
     gallery: [
       "https://readdy.ai/api/search-image?query=Personalized%20learning%20dashboard%20showing%20student%20progress%20and%20adaptive%20quiz%20generation.%20Educational%20interface%20with%20learning%20analytics%2C%20knowledge%20gap%20visualization%20and%20quiz%20history.%20Modern%20e-learning%20design%20with%20colorful%20educational%20elements%20on%20a%20minimalist%20background.&width=600&height=400&seq=8&orientation=landscape",
@@ -236,7 +236,7 @@ const projects = [
     image:
       "https://readdy.ai/api/search-image?query=Financial%20dashboard%20showing%20stock%20market%20analysis%20with%20AI%20predictions%20and%20investment%20recommendations.%20The%20interface%20features%20stock%20charts%2C%20trend%20analysis%2C%20and%20financial%20metrics.%20Professional%20financial%20design%20with%20blue%20and%20green%20elements%20indicating%20market%20movements%20on%20a%20minimalist%20background.&width=600&height=400&seq=10&orientation=landscape",
     githubLink: "https://github.com/shkhfzn9/AiEquityResearch",
-    demoLink: "https://ai-stock-assistant.demo.com",
+    demoLink: "ai-equity-research.vercel.app",
     YoutubeLink: "https://www.youtube.com/embed/6F5gd2hLiFU",
     gallery: [
       "https://readdy.ai/api/search-image?query=Stock%20prediction%20interface%20showing%20market%20trend%20analysis%20and%20investment%20opportunity%20visualization.%20Financial%20dashboard%20with%20stock%20charts%2C%20prediction%20models%20and%20risk%20assessment%20tools.%20Professional%20financial%20design%20with%20data%20visualization%20elements%20on%20a%20minimalist%20background.&width=600&height=400&seq=11&orientation=landscape",
