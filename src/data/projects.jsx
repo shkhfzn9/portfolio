@@ -167,7 +167,7 @@ const projects = [
     image:
       "https://readdy.ai/api/search-image?query=Educational%20quiz%20application%20interface%20showing%20interactive%20questions%20and%20learning%20progress%20tracking.%20The%20UI%20features%20colorful%20educational%20elements%2C%20progress%20charts%2C%20and%20knowledge%20assessment%20visuals.%20Modern%20e-learning%20design%20with%20engaging%20educational%20graphics%20on%20a%20minimalist%20background.&width=600&height=400&seq=7&orientation=landscape",
     githubLink: "https://github.com/shkhfzn9/QuizGamify",
-    demoLink: "https://ai-eduquiz.demo.com", //
+    demoLink: "quiz-gamify.vercel.app", //
     YoutubeLink: "https://www.youtube.com/embed/TZKk2xEgywo",
     gallery: [
       "https://readdy.ai/api/search-image?query=Personalized%20learning%20dashboard%20showing%20student%20progress%20and%20adaptive%20quiz%20generation.%20Educational%20interface%20with%20learning%20analytics%2C%20knowledge%20gap%20visualization%20and%20quiz%20history.%20Modern%20e-learning%20design%20with%20colorful%20educational%20elements%20on%20a%20minimalist%20background.&width=600&height=400&seq=8&orientation=landscape",
