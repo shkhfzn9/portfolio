@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../common/Button";
+import profilePicture from "../../assets/profilePicture.png";
 
 const Hero = ({ id }) => {
   return (
@@ -28,21 +29,27 @@ const Hero = ({ id }) => {
               >
                 View Projects <i className="fas fa-arrow-right ml-2"></i>
               </Button>
-              <Button>
-                Download Resume <i className="fas fa-download ml-2"></i>
-              </Button>
+              <a
+                href="/Sheikh_Faizan[backend_Ai]_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button>
+                  View Resume <i className="fas fa-download ml-2"></i>
+                </Button>
+              </a>
             </div>
           </div>
           {/* for my image */}
-          {/* <div className="md:w-1/2 flex justify-center">
+          <div className="md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img
-                src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20male%20software%20developer%20with%20a%20friendly%20expression%2C%20wearing%20smart%20casual%20attire.%20The%20photo%20has%20a%20clean%2C%20minimalist%20background%20with%20soft%20lighting%20highlighting%20the%20subject.%20Modern%20professional%20headshot%20style%20with%20neutral%20colors.&width=400&height=400&seq=13&orientation=squarish"
+                src={profilePicture}
                 alt="Sheikh Faizan - Software Developer"
                 className="w-full h-full object-cover object-top"
               />
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
