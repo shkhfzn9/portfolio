@@ -30,7 +30,7 @@ const Hero = ({ id }) => {
                 View Projects <i className="fas fa-arrow-right ml-2"></i>
               </Button>
               <a
-                href="/Sheikh_Faizan[backend_Ai]_CV.pdf"
+                href="/Sheikh_Faizan_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
