@@ -33,6 +33,7 @@ const Hero = ({ id }) => {
                 href="/Sheikh_Faizan_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
+                download="Sheikh_Faizan_Resume.pdf"
               >
                 <Button>
                   View Resume <i className="fas fa-download ml-2"></i>
