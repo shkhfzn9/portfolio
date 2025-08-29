@@ -29,7 +29,7 @@ const Hero = ({ id }) => {
               >
                 View Projects <i className="fas fa-arrow-right ml-2"></i>
               </Button>
-              <a
+              {/* <a
                 href="/Sheikh_Faizan_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -38,7 +38,23 @@ const Hero = ({ id }) => {
                 <Button>
                   View Resume <i className="fas fa-download ml-2"></i>
                 </Button>
-              </a>
+              </a> */}
+              <Button
+                onClick={() => {
+                  // 1. Open in new tab
+                  window.open("/Sheikh_Faizan_Resume.pdf", "_blank");
+
+                  // 2. Trigger download
+                  const link = document.createElement("a");
+                  link.href = "/Sheikh_Faizan_Resume.pdf";
+                  link.download = "Sheikh_Faizan_Resume.pdf";
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
+              >
+                Download Resume <i className="fas fa-download ml-2"></i>
+              </Button>
             </div>
           </div>
           {/* for my image */}
