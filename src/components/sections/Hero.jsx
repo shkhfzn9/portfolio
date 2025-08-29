@@ -39,7 +39,8 @@ const Hero = ({ id }) => {
                   View Resume <i className="fas fa-download ml-2"></i>
                 </Button>
               </a> */}
-              {/* <Button
+
+              <Button
                 onClick={() => {
                   // 1. Open in new tab
                   window.open("/Sheikh_Faizan_Resume.pdf", "_blank");
@@ -54,9 +55,9 @@ const Hero = ({ id }) => {
                 }}
               >
                 Download Resume <i className="fas fa-download ml-2"></i>
-              </Button> */}
+              </Button>
 
-              <Button
+              {/* <Button
                 onClick={() => {
                   // open in new tab (more reliable when using location.href instead of window.open)
                   window.location.href = "/Sheikh_Faizan_Resume.pdf";
@@ -73,7 +74,7 @@ const Hero = ({ id }) => {
                 }}
               >
                 Download Resume
-              </Button>
+              </Button> */}
             </div>
           </div>
           {/* for my image */}
